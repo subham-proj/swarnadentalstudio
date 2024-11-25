@@ -10,7 +10,7 @@ import Testimonial from "../sections/Testimonial/Testimonial.js";
 
 export default function Home() {
   return (
-    <React.Fragment>
+    <>
       <Navbar />
       <Banner />
       <Services />
@@ -19,6 +19,6 @@ export default function Home() {
       <Testimonial />
       <Expert />
       <Footer />
-    </React.Fragment>
+    </>
   );
 }
